@@ -2,6 +2,4 @@
 Cliente/proyecto/local_settings.py
 API/proyecto/local_settings.py
 datos/
-Docker*
-docker*
 *.sqlite3
