@@ -13,3 +13,15 @@ class cancion(models.Model):
 
     def __str__(self):
         return self.nom_cancion
+
+
+class usuario(models.Model):
+    nom_usuario = models.CharField(max_length=30)
+    contrasenia = models.CharField(max_length=30)
+
+    class Meta:
+        verbose_name = "Usuario"
+        verbose_name_plural = "Usuarios"
+
+    def __str__(self):
+        return self.nom_usuario
